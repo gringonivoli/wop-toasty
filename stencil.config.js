@@ -4,7 +4,7 @@ exports.config = {
   serviceWorker: false,
   copy: [
     {
-      src: 'components/wop-toasty-assets'
+      src: 'assets'
     }
   ]
 };

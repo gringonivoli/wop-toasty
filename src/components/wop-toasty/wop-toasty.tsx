@@ -27,16 +27,16 @@ export class Toasty {
   }
 
   private setDefaultValues() {
-    this.img = this.img || 'components/wop-toasty-assets/toasty.png';
-    this.sound = this.sound || 'components/wop-toasty-assets/toasty.mp3';
+    this.img = this.img || 'assets/toasty.png';
+    this.sound = this.sound || 'assets/toasty.mp3';
   }
 
   render() {
     return (
       <div id="toasty-guy-dan">
-        <img src="components/wop-toasty-assets/toasty.png" alt="toasty" />
+        <img src="assets/toasty.png" alt="toasty" />
         <audio id="toasty-audio">
-          <source src="components/wop-toasty-assets/toasty.mp3" type="audio/mpeg"></source>
+          <source src="assets/toasty.mp3" type="audio/mpeg"></source>
         </audio>
       </div>
     );
