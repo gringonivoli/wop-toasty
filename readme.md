@@ -25,7 +25,7 @@ npm start
 
 ### Script tag
 
-- Put this script tag `<script async defer src="https://unpkg.com/wop-toasty@0.1.2/dist/woptoasty.js"></script>` in the head of your index.html
+- Put this script tag `<script async defer src="https://unpkg.com/wop-toasty@0.1.3/dist/woptoasty.js"></script>` in the head of your index.html
 
 ### Node Modules
 - Run `npm install wop-toasty --save`
