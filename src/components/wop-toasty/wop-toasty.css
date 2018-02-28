@@ -1,0 +1,43 @@
+#toasty-guy-dan {
+  position: fixed;
+  right: -200px;
+  bottom: 0px;
+}
+.show-dan{
+	-webkit-animation:showToastyGuy 1s;
+	   -moz-animation:showToastyGuy 1s;
+	     -o-animation:showToastyGuy 1s;
+	        animation:showToastyGuy 1s;
+}
+
+@-webkit-keyframes showToastyGuy
+{
+	0% {right: -200px;}
+	40% {right: 10px;}
+	60% {right: 10px;}
+	100% {right: -200px;}
+}
+
+@-moz-keyframes showToastyGuy
+{
+	0% {right: -200px;}
+	40% {right: 10px;}
+	60% {right: 10px;}
+	100% {right: -200px;}
+}
+
+@-o-keyframes showToastyGuy
+{
+	0% {right: -200px;}
+	40% {right: 10px;}
+	60% {right: 10px;}
+	100% {right: -200px;}
+}
+
+@keyframes showToastyGuy
+{
+	0% {right: -200px;}
+	40% {right: 10px;}
+	60% {right: 10px;}
+	100% {right: -200px;}
+}
