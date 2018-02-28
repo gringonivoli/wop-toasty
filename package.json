@@ -1,7 +1,7 @@
 {
   "name": "wop-toasty",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Web Component build with Stencil to add a toasty guy to web page.",
   "main": "dist/woptoasty.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/gringonivoli/wop-toasty.git"
   },
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/gringonivoli/wop-toasty"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/gringonivoli/wop-toasty",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"

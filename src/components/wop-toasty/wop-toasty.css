@@ -3,6 +3,7 @@
   right: -200px;
   bottom: 0px;
 }
+
 .show-dan{
 	-webkit-animation:showToastyGuy 1s;
 	   -moz-animation:showToastyGuy 1s;
