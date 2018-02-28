@@ -2,7 +2,7 @@
 
 # wop-toasty
 
-Web Component built with Stencil to add a toasty guy to web page.
+Web Component built with Stencil to Show Dan Forden's Toasty from Mortal Kombat. Based on [rubentd/toasty](https://github.com/rubentd/toasty).
 
 ## Getting Started
 
@@ -19,4 +19,29 @@ and run:
 ```bash
 npm install
 npm start
+```
+
+## Using this component
+
+### Script tag
+
+- Put this script tag `<script async defer src="https://unpkg.com/wop-toasty@0.1.0/dist/woptoasty.js"></script>` in the head of your index.html
+
+### Node Modules
+- Run `npm install wop-toasty --save`
+- Put a script tag similar to this `<script src='node_modules/wop-toasty/dist/woptoasty.js'></script>` in the head of your index.html
+
+### In a stencil-starter app
+- Run `npm install wop-toasty --save`
+- Add `{ name: 'wop-toasty' }` to your [collections](https://github.com/ionic-team/stencil-starter/blob/master/stencil.config.js#L5)
+
+## Examples
+
+```html
+<button onclick="toasty.show()">Show Toasty!</button>
+<wop-toasty></wop-toasty>
+
+<script>
+    const toasty = document.querySelector('wop-toasty');
+</script>
 ```

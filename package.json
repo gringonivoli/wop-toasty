@@ -1,7 +1,7 @@
 {
   "name": "wop-toasty",
-  "version": "0.0.1",
-  "description": "Web Component build with Stencil to add a toasty guy to web page.",
+  "version": "0.1.0",
+  "description": "Web Component built with Stencil to Show Dan Forden's Toasty from Mortal Kombat.",
   "main": "dist/woptoasty.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",

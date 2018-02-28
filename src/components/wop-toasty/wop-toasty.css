@@ -14,31 +14,31 @@
 @-webkit-keyframes showToastyGuy
 {
 	0% {right: -200px;}
-	40% {right: 10px;}
-	60% {right: 10px;}
+	40% {right: 1px;}
+	60% {right: 1px;}
 	100% {right: -200px;}
 }
 
 @-moz-keyframes showToastyGuy
 {
 	0% {right: -200px;}
-	40% {right: 10px;}
-	60% {right: 10px;}
+	40% {right: 1px;}
+	60% {right: 1px;}
 	100% {right: -200px;}
 }
 
 @-o-keyframes showToastyGuy
 {
 	0% {right: -200px;}
-	40% {right: 10px;}
-	60% {right: 10px;}
+	40% {right: 1px;}
+	60% {right: 1px;}
 	100% {right: -200px;}
 }
 
 @keyframes showToastyGuy
 {
 	0% {right: -200px;}
-	40% {right: 10px;}
-	60% {right: 10px;}
+	40% {right: 1px;}
+	60% {right: 1px;}
 	100% {right: -200px;}
 }
