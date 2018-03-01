@@ -7,14 +7,10 @@ import { Component, Prop, Method, Element } from '@stencil/core';
 })
 export class Toasty {
 
-  @Prop() img: string;
-  @Prop() sound: string;
+  @Prop() img: string = 'assets/toasty.png';
+  @Prop() sound: string = 'assets/toasty.mp3';
 
   @Element() el: HTMLElement;
-
-  componentWillLoad() {
-    this.setDefaultValues();
-  }
 
   @Method()
   show() {
@@ -26,17 +22,12 @@ export class Toasty {
     window.setTimeout(() => toasty.setAttribute('class', ''), 1000);
   }
 
-  private setDefaultValues() {
-    this.img = this.img || 'assets/toasty.png';
-    this.sound = this.sound || 'assets/toasty.mp3';
-  }
-
   render() {
     return (
       <div id="toasty-guy-dan">
-        <img src="assets/toasty.png" alt="toasty" />
+        <img src={this.img} alt="toasty" />
         <audio id="toasty-audio">
-          <source src="assets/toasty.mp3" type="audio/mpeg"></source>
+          <source src={this.sound} type="audio/mpeg"></source>
         </audio>
       </div>
     );
