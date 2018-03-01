@@ -15,8 +15,8 @@ export class Toasty {
   @Method()
   show() {
     const el = this.el.shadowRoot;
-    const toastyAudio: HTMLAudioElement = el.querySelector('#toasty-audio');
-    const toasty = el.querySelector('#toasty-guy-dan');
+    const toastyAudio: HTMLAudioElement = el.querySelector('audio');
+    const toasty = el.querySelector('div');
     toastyAudio.play();
     toasty.setAttribute('class', 'show-dan');
     window.setTimeout(() => toasty.setAttribute('class', ''), 1000);
@@ -24,9 +24,9 @@ export class Toasty {
 
   render() {
     return (
-      <div id="toasty-guy-dan">
+      <div>
         <img src={this.img} alt="toasty" />
-        <audio id="toasty-audio">
+        <audio>
           <source src={this.sound} type="audio/mpeg"></source>
         </audio>
       </div>
