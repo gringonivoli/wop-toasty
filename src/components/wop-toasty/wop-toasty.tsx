@@ -7,8 +7,8 @@ import { Component, Prop, Method, Element } from '@stencil/core';
 })
 export class Toasty {
 
-  @Prop() img: string = 'assets/toasty.png';
-  @Prop() sound: string = 'assets/toasty.mp3';
+  @Prop() img: string = 'https://images2.imgbox.com/21/5a/eGjEhHhf_o.png';
+  @Prop() sound: string = 'https://drive.google.com/uc?export=open&id=1lwv5xwrCDlWu1oipOmsKTDFB63Lm_-Xh';
 
   @Element() el: HTMLElement;
 
