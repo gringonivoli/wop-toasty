@@ -4,6 +4,9 @@
 
 Web Component built with Stencil to Show Dan Forden's Toasty from Mortal Kombat. Based on [rubentd/toasty](https://github.com/rubentd/toasty).
 
+## Live Example
+[http://embed.plnkr.co/Qd4duF/](http://embed.plnkr.co/Qd4duF/)
+
 ## Getting Started
 
 To try this component:
