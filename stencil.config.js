@@ -1,7 +1,14 @@
 exports.config = {
   namespace: 'woptoasty',
-  generateDistribution: true,
-  serviceWorker: false,
+  outputTargets:[
+    {
+      type: 'dist'
+    },
+    {
+      type: 'www',
+      serviceWorker: false
+    }
+  ],
   copy: [
     {
       src: 'assets'
