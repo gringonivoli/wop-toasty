@@ -1,6 +1,6 @@
 {
   "name": "wop-toasty",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Web Component built with Stencil to Show Dan Forden's Toasty from Mortal Kombat.",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
